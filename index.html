@@ -17,24 +17,19 @@
           id="fname"
           name="fname"
           placeholder="Enter keywords"
+          id="searchRecord"
         />
       </div>
     </section>
     <section id="list">
       <div id="list-container">
-        <!-- <ul>
-          <li>
-            <article>
-              <img src="#" alt="" />
-              <div class="details">
-                <h2>04 March 2018</h2>
-                <p>Periods of rain.</p>
-              </div>
-            </article>
-          </li> 
-        </ul> -->
+        <p id="loading">Fetching Records ...</p>
       </div>
       <script src="script.js"></script>
     </section>
+    <section id="button">
+      <button id="seeMore" onclick="moreRecords()">See More...</button>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
   </body>
 </html>
